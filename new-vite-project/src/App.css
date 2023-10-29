@@ -1,0 +1,17 @@
+#root {
+  max-width: 1280px;
+  margin: 0;
+  text-align: center;
+  justify-content: center;
+}
+
+
+.dark{
+  background-color: black;
+  color: white;
+}
+
+.light{
+  background-color: white;
+  color: black;
+}
