@@ -16,7 +16,7 @@ const MyForm = () => {
 
   return (
     <form onSubmit={handleSubmit(onSubmit)}>
-      <input {...register('email')}/>
+      <input {...register('email')}/> //... = spread operator เอาไว้ทำหน้าที่กระจายค่าข้อมูล หรือ property ใน obj
       <input {...register('password')}/>
       <input {...register('confirmPassword')}/>
       <input type='submit'/>
