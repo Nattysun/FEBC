@@ -31,7 +31,7 @@ const WaterNeeds = () => {
     <>
   <body className={`${theme}`}>
   <div>
-  <h1>ควรดื่มน้ำวันล่ะเท่าไหร่</h1>
+  <h1>คุณควรดื่มน้ำวันล่ะเท่าไหร่</h1>
     <h1>{QtyWater} x ml</h1>
     <div>
       <form onSubmit={calculateWater}>
